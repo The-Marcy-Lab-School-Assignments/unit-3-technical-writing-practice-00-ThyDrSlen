@@ -8,18 +8,18 @@
 
 ---
 Your documentation here: 
-Higher order functions are functions that take other functions as arguments or return functions as output. They are used to abstract away common patterns of code and make code more concise and readable. They are also used to create powerful abstractions that can be used to solve complex problems. 
+**Higher order functions** are functions that take other functions as arguments or return functions as output. They are used to abstract away common patterns of code and make code more concise and readable.
 
-Syntax for higher order functions typically follows the same pattern as other functions. The function takes one or more arguments, which can be either functions or values, and returns a value or a function. The arguments can be anonymous functions (also known as lambda functions) or named functions.
-
+Syntax for higher order functions typically follows the same pattern as other functions. The function takes one or more arguments, which can be either functions or values, and returns a value or a function. 
 For example, a higher order function might look like this:
-
+```js
 function higherOrderFunction(arg1, arg2, callback) {
   // do something with arg1 and arg2
   const result = // some computation
   return callback(result);
 }
+```
 
-In this example, arg1 and arg2 are the arguments passed to the higher order function, and callback is a function that is passed as an argument. The higher order function does some computation with arg1 and arg2, and then passes the result to the callback function. The callback function then returns a value or a function.
+In this example, `arg1` and `arg2` are the arguments passed to the higher order function, and callback is a function that is passed as an argument. The higher order function does some computation with `arg1` and `arg2`, and then passes the result to the callback function. The callback function then returns a value or a function.
 
 
