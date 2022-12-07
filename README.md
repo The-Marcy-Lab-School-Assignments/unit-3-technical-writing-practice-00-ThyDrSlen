@@ -8,6 +8,8 @@
 
 ---
 Your documentation here: 
+
+
 **Higher order functions** are functions that take other functions as arguments or return functions as output. They are used to abstract away common patterns of code and make code more concise and readable.
 
 Syntax for higher order functions typically follows the same pattern as other functions. The function takes one or more arguments, which can be either functions or values, and returns a value or a function. 
